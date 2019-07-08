@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -7,10 +8,10 @@
   <body>
     <nav>
       <ul id="navbar">
-        <li> <a href="index.php">Page 1</a> </li>
-        <li> <a href="page2.php">Page 2</a> </li>
-        <li> <a href="page3.php">Page 3</a> </li>
-        <li> <a href="page4.php">Page 4</a> </li>
+        <li> <a href="index.php">Set the session string</a> </li>
+        <li> <a href="page2.php">Add to the session string</a> </li>
+        <li> <a href="page3.php">Trim the session string</a> </li>
+        <li> <a href="page4.php">Destroy the session string</a> </li>
       </ul>
     </nav>
     <h1>Practice for sessions</h1>
