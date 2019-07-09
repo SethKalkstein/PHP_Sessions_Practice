@@ -11,7 +11,7 @@
   }
 ?>
   <p>How many characters would you like to remove from the end of the session variable?</p>
-
+  <!-- form to intake the number of characters that will be removed from the session variable -->
   <form action="<?php echo $_SERVER['PHP_SELF'] ?>" method="post">
     <label>Enter number (integer only) here:</label>
     <input type="text" name="alter_number">
