@@ -16,6 +16,7 @@
     </nav>
     <h1>Practice for sessions</h1>
     <h2>You are currently on</h2>
+    <!-- This will dynamically find the text between the anchor tags regardless of which page you are on -->
     <?php
       //get the path string of the current file from the server
       $file_path = $_SERVER['PHP_SELF'];
@@ -38,4 +39,5 @@
       //isolate the the link text
       $current_page_name = substr($nav_list, $start_page_name, $end_page_name - $start_page_name);
     ?>
+    <!-- the result of everything above -->
     <h2><?php echo $current_page_name ?></h2>
